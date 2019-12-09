@@ -23,7 +23,7 @@
 <delete dir="${build}"/>
 </target>
 <target name="myzip" depends="clean,init" description="Generates zip file">
-<zip destfile="${dist-location}/deployables.zip">
+<zip destfile="${dist-location}/deployables_new.zip">
 <zipfileset dir="${basedir}"/>
 <fileset dir="${basedir}" includes="*.txt"/>
 </zip>
